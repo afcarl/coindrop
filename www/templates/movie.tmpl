@@ -1,0 +1,25 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" 
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"> 
+ 
+<!-- this script block will install Flowplayer inside previous anchor tag --> 
+
+<html>
+<head>
+
+<script src="http://static.flowplayer.org/js/flowplayer-3.0.5.min.js"></script> 
+
+<script language="JavaScript"> 
+    flowplayer("player", "http://www.polymerase.org/swf/flowplayer-3.0.5.swf"); 
+</script>
+
+</head>
+<body>
+
+<a  
+    href="${movie_url}"
+    style="display:block;width:600px;height:600px;"  
+    id="player"> 
+</a> 
+
+</body>
+</html>
